@@ -1,0 +1,11 @@
+.loading {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading img {
+  max-width: 50%;
+}

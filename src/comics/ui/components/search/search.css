@@ -1,0 +1,20 @@
+.search {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 10px 0;
+}
+
+.search label {
+  width: 430px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.search input {
+  width: 400px;
+  height: 40px;
+  padding: 0 15px;
+}
