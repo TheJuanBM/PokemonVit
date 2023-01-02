@@ -2,7 +2,7 @@ import { render, screen, waitForElementToBeRemoved } from '@testing-library/reac
 
 import App from '../App'
 
-describe('Commics test', () => {
+describe('Comics test', () => {
   test('Should show comics', async () => {
     render(<App />)
 

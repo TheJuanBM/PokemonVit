@@ -1,9 +1,13 @@
 import Comic from '../../../model/comic'
 import './card.css'
 
-export function Card({ ...comic }: Comic) {
+interface CardProps extends Comic {
+  handleAction: (value: number | null) => void
+}
+
+export function Card({ handleAction, ...comic }: CardProps) {
   return (
-    <div className="featured">
+    <div className="featured" onClick={() => handleAction(comic.id)}>
       <img role="img" src={comic.image} />
       <p>{comic.title}</p>
     </div>

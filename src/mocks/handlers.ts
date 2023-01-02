@@ -2,7 +2,7 @@ import { rest } from 'msw'
 import { getEndPoint } from '../adapter/HTTPRequests'
 import { ComicResponse } from '../comics/dto/comicDTO'
 
-const commics: ComicResponse[] = [
+const comics: ComicResponse[] = [
   {
     id: 1,
     title: 'Marvel Previews (2017)',
@@ -28,7 +28,7 @@ export const handlers = [
     return res(
       ctx.json({
         data: {
-          results: commics
+          results: comics
         }
       })
     )

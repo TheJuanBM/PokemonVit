@@ -1,6 +1,7 @@
 .featured {
   width: 100%;
   display: flex;
+  cursor: pointer;
   border-radius: 6px;
   height: fit-content;
   grid-column: span 2;

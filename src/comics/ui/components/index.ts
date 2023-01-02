@@ -1,4 +1,5 @@
 export * from './card'
+export * from './detail'
 export * from './galery'
 export * from './loading'
 export * from './search'
